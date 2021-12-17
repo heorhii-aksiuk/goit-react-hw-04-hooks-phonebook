@@ -4,6 +4,8 @@ import Form from './components/Form/Form';
 import Section from './components/Section/Section';
 import Filter from './components/Filter/Filter';
 
+// добавить сообщение о пустых контактах
+
 class App extends Component {
   state = {
     contacts: [],
